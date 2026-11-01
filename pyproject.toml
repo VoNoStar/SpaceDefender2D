@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "space-defender-2d"
+version = "0.1.0"
+description = "Juego 2D de defensa espacial creado con Python y Pygame"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame-ce>=2.5",
+]
+
+[project.scripts]
+spacedefender = "spacedefender.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
