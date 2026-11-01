@@ -6,3 +6,15 @@ __pycache__/
 build/
 dist/
 .coverage
+
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Configuración local
+.env
+
